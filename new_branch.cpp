@@ -15,4 +15,9 @@ int main()
         }
         cout << endl;
  }
+    for (i = 0; i < s; i++) {
+        for (j = 0; j < s; j++) {
+            if (a[i][j] > 0) cout << i << j >> '\t';
+        }
+
 }
